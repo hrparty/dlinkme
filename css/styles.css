@@ -485,5 +485,35 @@ textarea {
    ========================================================================== */
 
 body {
-	
+	background: #fff;
+	color: #333;
+}
+
+#url {
+	font-size: 1.3em;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 40%;
+	margin: 15% auto 0;
+	display: block;
+}
+
+#dlink {
+	margin-top: 2em;
+	text-align: center;
+}
+
+#dlink a {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #068BCC;
+}
+
+#dlink a:hover {
+	text-decoration: underline;
+}
+
+#dlink a:active {
+	color: #056899;
 }
