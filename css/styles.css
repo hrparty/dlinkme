@@ -485,14 +485,15 @@ textarea {
    ========================================================================== */
 
 body {
-	background: #efefef;
+	background: #333;
 	color: #333;
 }
 
 #content {
 	margin: 15% auto 0;
 	text-align: center;
-	text-shadow: 0px 1px 0px #fff;
+	color: #ccc;
+	text-shadow: 0 1px 0 #000;
 }
 
 #url {
@@ -503,15 +504,9 @@ body {
 	width: 40%;
 	margin: 40px auto 0;
 	display: block;
-	-webkit-transition: border-color 0.4s ease;
-	-moz-transition: border-color 0.4s ease;
-	-o-transition: border-color 0.4s ease;
-	-ms-transition: border-color 0.4s ease;
-	transition: border-color 0.4s ease;
 }
 
 #url:focus {
-	border: 1px solid #6F6F6F;
 	outline: none;
 }
 
@@ -541,7 +536,7 @@ body {
 	width: 71px;
 	display: block;
 	position: absolute;
-	top: 10px;
+	bottom: -37px;
 	right: -75px;
 	/* Hand drawn error graphic by Think Design: http://thinkdesignblog.com/120-handdrawn-vector-arrows.htm */
 	background: url(../img/clickme.png) no-repeat top left;
