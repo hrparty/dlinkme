@@ -501,7 +501,7 @@ body {
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	width: 40%;
-	margin: 2em auto 0;
+	margin: 40px auto 0;
 	display: block;
 	-webkit-transition: border-color 0.4s ease;
 	-moz-transition: border-color 0.4s ease;
@@ -516,7 +516,7 @@ body {
 }
 
 #dlink {
-	margin-top: 2em;
+	margin-top: 40px;
 	text-align: center;
 }
 
